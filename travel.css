@@ -85,7 +85,7 @@
 }
 .paragraph{
     background-color: rgb(200, 189, 189);
-    margin: 80px 0;
+    margin: 65px 0;
     padding: 20px 20px;
 }
 .readmore{
@@ -103,6 +103,7 @@
 .packages{
     background-color: rgb(250, 220, 220);
     height: 100vh;
+    margin: 50px;
 }
 .packages1 h1{
     font-size: 50px;
@@ -115,16 +116,24 @@
     height: 500px;
     
 }
+.boxcont{
+    height: 80px;
+}
 .box{
     width: 30%;
     border: 2px solid;
     margin: 25px;
     text-align: center;
+    height: 500px;
 
 }
 .boximg img{
      height: 300px;
-     width: 392px;
+     width: 360px;
+     transition: transform .5s ;
+}
+.boximg img:hover{
+    transform: scale(1.5);
 }
 .box a{
     color: white;
@@ -136,17 +145,18 @@
     margin: 15px;
 }
 .boxa{
-    margin: 15px;
+    margin: 50px;
 }
 .loadmore a{
     color: white;
     background-color: black;
     padding:  10px 20px;
     text-decoration: none;
+    margin-bottom: 20px;
 }
 .loadmore{
     text-align: center;
-    margin-bottom: 50px;
+    margin: 70px;
 
 }
 .paragraph2 h1{
@@ -171,15 +181,12 @@
 }
 .wrapper{
     background: url(images/footer-bg.jpg) no-repeat fixed center /cover;
-    height: 100vh;
+    margin: 50px 50px 0;
 }
 .menuup{
     display: flex;
     justify-content: space-evenly;
     align-items: center;
-    flex-wrap: wrap;
-    
-
 }
 .wrapper h3{
     color: white;
@@ -191,22 +198,26 @@
     margin: 15px 0;
 }
 .wrapper a{
-    color:yellow;
+    color:white;
     text-decoration: none;
 }
 .wrapper i {
-    color:white;
+    color:purple;
     margin-right: 10px;
     font-size: 12px;
 }
 .menudn{
-    margin-left: 270px;
+    margin-left: 240px;
 }
 .footer h2{
-    margin-top: 210px;
+    margin-top: 50px;
     color: white;
     border-top: 2px solid white;
     text-align: center;
     padding-top: 15px;
 }
+.footer a{
+    color: purple;
+}
+
 
