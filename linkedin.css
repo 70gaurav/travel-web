@@ -50,9 +50,9 @@
 }
 .signin a{
     font-size: 18px;
-    padding: 15px;
+    padding: 10px 15px;
     color: #0a66c2;
-    border: solid #0a66c2;
+    border:1px solid #0a66c2;
     border-radius: 40px;
 }
 .s1{
@@ -71,6 +71,7 @@
     height: 50px;
     width: 400px;
     margin: 20px 0;
+    font-size: 20px;
 }
 .s1input p{
     margin-left: 185px;
@@ -78,6 +79,13 @@
 .s1input a{
     text-decoration: none;
     color: black;
+}
+.submit{
+    background-color: #0a66c2;
+    color: white;
+    border: 2px solid #0a66c2;
+    border-radius: 20px;
+    font-size: 20px;
 }
 .s1img img{
     width: 700px;
@@ -130,6 +138,7 @@
     text-decoration: none;
     color: black;
     font-size: 20px;
+    font-weight: 900;
 }
 .s2m h3{
     font-size: 20px;
@@ -241,6 +250,86 @@ margin-top: 50px;
     margin-top: 40px;
     text-align: center;
 }
+.s7{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    position: relative;
+    
+}
+.s7r{
+    background-color: #dbeafa;
+    width:70%;
+    margin-left: 550px;
+    height: 100vh;
+    
+}
+.s7video iframe{
+
+    position: absolute;
+    left: 200px;
+    bottom: 200px;
+}
+
+.s7h h3{
+    color: rgb(224, 85, 85);
+    font-size: 35px;
+    margin-top: 320px;
+    margin-left: 200px;
+}
+.bottom{
+    margin-top: 100px;
+    background: url(bottom-bg.png) scroll no-repeat center /cover;
+    height: 100vh
+}
+.bottom h1{
+    font-size: 50px;
+    margin-left: 200px;
+}
+.getstarted{
+    margin-top: 50px;
+    margin-left: 200px;
+}
+
+.getstarted a{
+    background-color: #0a66c2;
+    color: white;
+    text-decoration:none;
+    font-size: 20px ;
+    padding: 10px 15px;
+    border-radius: 30px;
+}
+.footer{
+    display: flex;
+    background-color: #c5def6;
+}
+.fl{
+    display: flex;
+    margin-left: 200px;
+}
+.fl h3{
+    margin-top: 5px;
+
+}
+.flist{
+    margin:50px 80px;
+}
+.flist h4{
+    margin-bottom: 15px;
+}
+.fl{
+    margin-top: 40px;
+}
+.flist li{
+    list-style: none;
+}
+.flist li a{
+    text-decoration: none;
+    color: black;
+    margin: 10px 0;
+}
+
 
 
 
