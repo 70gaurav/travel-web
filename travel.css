@@ -1,0 +1,223 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.top{
+    display: flex;
+    justify-content: space-between;
+    margin: 40px 100px 0 100px;
+    
+    
+}
+.menu1 ul{
+    display: flex;
+    list-style: none;
+}
+.menu1 a{
+    text-decoration: none;
+    color: black;
+    margin: 20px;
+    font-size: 20px;
+}
+.slide1 {
+    background: url(images/home-slide-1.jpg) no-repeat scroll center /cover;
+    height: 600px;
+    margin: 10px 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.slide1 h1 {
+    color: white;
+    font-size: 50px;
+}
+.slide1 h3{
+    color: white;
+    margin-bottom: 50px;
+}
+.slide1 a{
+    text-decoration: none;
+    color: white;
+    background-color: black;
+    padding: 10px;
+    border-radius: 5px;
+}
+.services{
+    margin-top: 50px;
+}
+.services h1{
+    font-size: 50px;
+    text-align: center;
+}
+.menu2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.logop{ 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 50px 60px;
+    
+}
+.logo{
+    background-color: magenta;
+    margin: 0 20px;
+    padding: 50px;
+}
+.logo1{
+    margin-left: 180px;
+    margin-right: 1110px;
+}
+.logod h3{
+    color: white;
+    
+}
+.about{
+    display: flex;
+    margin:100px 200px;
+}
+.aboutimg img{
+    height: 400px;
+}
+.paragraph{
+    background-color: rgb(200, 189, 189);
+    margin: 65px 0;
+    padding: 20px 20px;
+}
+.readmore{
+    margin: 20px 10px ;
+}
+.readmore a{
+    background-color: black;
+    padding: 5px 15px;
+    text-decoration: none;
+    color: white;
+}
+.paragraph h1{
+    margin: 10px;
+}
+.packages{
+    background-color: rgb(250, 220, 220);
+    height: 100vh;
+    margin: 50px;
+}
+.packages1 h1{
+    font-size: 50px;
+    text-align: center;
+    margin-top: 70px;
+}
+.threebox{
+    display: flex;
+    margin: 40px 90px;
+    height: 500px;
+    
+}
+.boxcont{
+    height: 80px;
+}
+.box{
+    width: 30%;
+    border: 2px solid;
+    margin: 25px;
+    text-align: center;
+    height: 500px;
+    overflow: hidden;
+}
+.boximg img{
+     height: 300px;
+     width: 360px;
+     transition: transform .5s;
+}
+.boximg img:hover{
+    transform: scale(1.2);
+}
+.box a{
+    color: white;
+    background-color: black;
+    text-decoration: none;
+    padding: 10px 15px;
+}
+.boxh{
+    margin: 15px;
+}
+.boxa{
+    margin: 50px;
+}
+.loadmore a{
+    color: white;
+    background-color: black;
+    padding:  10px 20px;
+    text-decoration: none;
+    margin-bottom: 20px;
+}
+.loadmore{
+    text-align: center;
+    margin: 70px;
+
+}
+.paragraph2 h1{
+    font-size: 50px;
+}
+.paragraph2{
+    text-align: center;
+}
+.booknow a{
+    color: white;
+    background-color: black;
+    padding:  10px 20px;
+    text-decoration: none;
+}
+.booknow{
+    text-align: center;
+    margin: 30px;
+    padding: 40px;
+}
+.pd{
+    margin-top: 30px;
+}
+.wrapper{
+    background: url(images/footer-bg.jpg) no-repeat fixed center /cover;
+    margin: 50px 50px 0;
+}
+.menuup{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.wrapper h3{
+    color: white;
+    margin-top: 50px;
+    margin-bottom: 20px;
+}
+.wrapper li{
+    list-style: none;
+    margin: 15px 0;
+}
+.wrapper a{
+    color:white;
+    text-decoration: none;
+}
+.wrapper i {
+    color:purple;
+    margin-right: 10px;
+    font-size: 12px;
+}
+.menudn{
+    margin-left: 240px;
+}
+.footer h2{
+    margin-top: 50px;
+    color: white;
+    border-top: 2px solid white;
+    text-align: center;
+    padding-top: 15px;
+}
+.footer a{
+    color: purple;
+}
+
+
